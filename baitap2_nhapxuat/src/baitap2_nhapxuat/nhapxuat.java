@@ -1,28 +1,23 @@
-/**
- * 
- */
 package baitap2_nhapxuat;
 
-/**
- * 
- */
+import java.util.Scanner;
+
 public class nhapxuat {
 
-	/**
-	 * @param args
-	 */
-	
-
 			public static void main(String[] args) {
+				
 				System.out.println("-------NHẬP XUẤT");
+				
 				// KHAI BÁO CÁC BIẾN CHỨA DỮ LIỆU NHẬP VÀO
 				String hoTen;
 				int tuoi;
 				Double chieuCao;
 				Double canNang;
+				
 				//TẠO ĐỐI TƯỢNG SCANNER ĐỂ NHẬP DỮ LIỆU
 				Scanner banPhim;//Khai báo
 				banPhim = new Scanner(System.in);
+				
 				//XIN MỚI
 				//ĐỌC DỮ LIỆU TỪ BÀN PHÍM, CẤT VÀO CÁC BIẾN TƯƠNG ỨNG
 				//IN RA HƯỚNG DẪN CHO USER BIẾT, CẦN LÀM GÌ
@@ -42,10 +37,7 @@ public class nhapxuat {
 				System.out.println("Weight: " + canNang);
 				System.out.println("Height: " +chieuCao);
 				System.out.println("=================");
-			}
 			
-		}
-
 	}
 
 }
